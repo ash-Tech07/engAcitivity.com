@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #000;
+    transition: all 0.4s ease;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    transition: all 0.4s ease;
+}
+
+li:hover {
+    background-color: #1877f2;
+}
+
+li:hover a {
+    color: #fff;
+}
+
+.navbar1.sticky .maxwid-n ul li:hover {
+    background-color: #fff;
+}
+
+.navbar1.sticky .maxwid-n ul li:hover a {
+    color: #1877f2;
+}
+
+.logo1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.maxwid-n {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.navbar1 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.2), 6px 0 10px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease;
+}
+
+.navbar1.sticky {
+    background-color: #1877f2;
+    z-index: 2;
+}
+
+@media screen and (max-width: 900px) {
+    li {
+        margin-right: 0;
+    }
+
+    .maxwid-n {
+        margin: 0 30px;
+    }
+}
+
+.vocont {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0 50px;
+}
+
+h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.w1 {
+    text-align: center;
+    padding: 10px;
+    width: 100px;
+    height: 20px;
+    margin: 15px 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid #1877f2;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.w1:hover {
+    background-color: #1877f2;
+    color: #fff;
+}
+
+.maxwid-v {
+    text-align: center;
+    width: 730px;
+    transition: all 0.4s ease;
+}
+
+@media screen and (max-width: 800px) {
+    .maxwid-v {
+        width: 530px;
+    }
+
+    #mean {
+        width: 30em;
+        height: 8em;
+    }
+
+    .maxwid-m .slide {
+        width: 550px;
+        height: 350px;
+    }
+}
+
+.vocab {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#mean {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 40px;
+}
+
+.maxwid-m {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slide {
+    width: 650px;
+    height: 500px;
+    background-image: url(1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 200px;
+    border: 3px solid black;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.4s ease;
+    padding: 10px 20px;
+}
+
+.lbtn, .rbtn {
+    cursor: pointer;
+    color: #1877f2;
+}
+
+.lbtn {
+    opacity: 0.4;
+}
+
+.meme {
+    margin: 80px 0;
+}
+
+.cword {
+    margin-bottom: 100px;
+}
+
+.maxwid-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+table {
+    width: 360px;
+    height: 360px;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
+
+.cell {
+    font-size: 20px;
+    text-align: center;
+    border: 0;
+    padding: 8px 2px;
+}
+
+.cell.dis {
+    background-color: #39303f;
+}
+
+.acr {
+    width: 550px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.hint {
+    text-align: left;
+    margin: 0 0 0 100px;
+}
+
+.cbtn {
+    border: 2px solid #1877f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    padding: 5px 15px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.cbtn:hover {
+    color: #fff;
+    background-color: #1877f2;
+}
