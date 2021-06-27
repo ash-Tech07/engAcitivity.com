@@ -136,6 +136,7 @@ li:hover a {
         font-size: 14px;
         padding: 5px 10px;
         margin: 10px;
+        border: 1px solid #1877f2;
     }
 }
 
@@ -157,6 +158,24 @@ li:hover a {
 
     .hint.h1.h2.h3 p.acr.a1.a2 {
         font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .hint.h1.h2.h3 p.acr.a1 {
+        width: 350px;
+    }
+
+    .cbtn.b1.b2 {
+        font-size: 12px;
+        padding: 5px 8px;
+        margin: 8px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .navbar1 .maxwid-n ul {
+        padding-left: 20px;
     }
 }
 
