@@ -15,6 +15,15 @@ a {
     transition: all 0.4s ease;
 }
 
+span {
+    color: #1877f2;
+    transition: all 0.4s ease;
+}
+
+.navbar1.sticky .maxwid-n a.logo1 span {
+    color: #fff;
+}
+
 ul {
     list-style-type: none;
     display: inline-block;
@@ -50,6 +59,7 @@ li:hover a {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     font-size: 20px;
+    transition: all 0.4s ease;
 }
 
 .maxwid-n {
@@ -196,10 +206,19 @@ li:hover a {
     align-items: center;
     justify-content: space-around;
     margin: 20px 0 50px;
+    transition: all 0.4s ease;
 }
 
-h2, h3 {
+h2 {
     font-family: 'Roboto', sans-serif;
+    transition: all 0.4s ease;
+    font-size: 26px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    transition: all 0.4s ease;
+    font-size: 20px;
 }
 
 .w1 {
@@ -241,6 +260,74 @@ h2, h3 {
         width: 550px;
         height: 300px;
     }
+
+    .pimg.pi1.pi2 {
+        width: 600px;
+        height: 350px;
+    }
+
+    .ptxt.pt1.pt2 {
+        width: 650px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pimg.pi1.pi2.pi3 {
+        width: 500px;
+        height: 300px;
+    }
+
+    .ptxt.pt1.pt2.pt3 {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .pimg.pi1.pi2.pi3.pi4 {
+        width: 400px;
+        height: 300px;
+    }
+
+    .ptxt.pt1.pt2.pt3.pt4 {
+        width: 550px;
+    }
+
+    .ptxt.pt1.pt2.pt3.pt4 p.pp1 {
+        font-size: 16px;
+    }
+
+    .h {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pimg.pi1.pi2.pi3.pi5 {
+        width: 300px;
+        height: 250px;
+    }
+
+    .ptxt.pt1.pt2.pt3.pt4.pt5 {
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    .navbar1 .maxwid-n a.logo1 {
+        font-size: 18px;
+    }
+
+    .navbar1 .maxwid-n ul.u1 {
+        padding: 0;
+    }
+
+    .navbar1 .maxwid-n ul.u1 li {
+        padding: 10px;
+    }
+
+    .navbar1 .maxwid-n ul.u1 li a {
+        font-size: 15px;
+    }
 }
 
 .vocab {
@@ -248,6 +335,7 @@ h2, h3 {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    transition: all 0.4s ease;
 }
 
 #mean {
@@ -294,10 +382,12 @@ h2, h3 {
 
 .meme {
     margin: 80px 0 0 0;
+    transition: all 0.4s ease;
 }
 
 .cword {
     margin-bottom: 50px;
+    transition: all 0.4s ease;
 }
 
 .maxwid-c {
@@ -369,6 +459,7 @@ td {
 
 .rebus {
     margin: 120px 0;
+    transition: all 0.4s ease;
 }
 
 .maxwid-r {
@@ -376,6 +467,7 @@ td {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    transition: all 0.4s ease;
 }
 
 .im {
@@ -438,8 +530,63 @@ td {
     padding: 8px 14px;
     text-align: center;
     margin-bottom: 15px;
+    transition: all 0.4s ease;
 }
 
 .re1, .re2, .re3, .re4 {
     margin: 25px 0;
+    transition: all 0.4s ease;
+}
+
+.maxwid-p {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.4s ease;
+}
+
+.pimg {
+    background-image: url(pic1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    border: 2px solid #000;
+    border-radius: 30px;
+    transition: all 0.4s ease;
+}
+
+.ptxt {
+    width: 600px;
+    height: 600px;
+    text-align: left;
+    transition: all 0.4s ease;
+}
+
+.ptxt p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    margin: 20px 30px;
+    transition: all 0.4s ease;
+}
+
+@media screen and (max-width: 1100px) {
+    .ptxt.pt1 p {
+        margin: 40px 30px;
+    }
+
+    .ptxt.pt1 {
+        width: 800px;
+        height: 600px;
+        text-align: left;
+    }
+
+    .pimg.pi1 {
+        width: 700px;
+        height: 400px;
+    }
 }
