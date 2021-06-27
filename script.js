@@ -116,7 +116,7 @@ $(document).ready(function() {
         for (let x = 1; x <= 9; x++) {
             for (let y = 1; y <= 9; y++) {
                 if (!$("#c" + x + y).hasClass("dis")) {
-                    dup += $("#c" + x + y).val();
+                    dup += ($("#c" + x + y).val()).toUpperCase();
                 }
             }
         }
@@ -143,6 +143,53 @@ $(document).ready(function() {
                 $("#lb").addClass("fa-3x");
                 $("#rb").addClass("fa-3x");
             }
+        }
+    });
+
+
+    // RESBUS function
+    $("#rev-res1").click(function() {
+        $("#txt1").val("I Understand");
+    });
+    $("#rev-res2").click(function() {
+        $("#txt2").val("Scrambled Eggs");
+    });
+    $("#rev-res3").click(function() {
+        $("#txt3").val("JavaScript");
+    });
+    $("#rev-res4").click(function() {
+        $("#txt4").val("Eiffel Tower");
+    });
+
+
+
+
+    $("#ch-res1").click(function() {
+        if (($("#txt1").val()).toUpperCase() == "I UNDERSTAND") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res2").click(function() {
+        if (($("#txt2").val()).toUpperCase() == "SCRAMBLED EGGS") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res3").click(function() {
+        if (($("#txt3").val()).toUpperCase() == "JAVASCRIPT") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res4").click(function() {
+        if (($("#txt4").val()).toUpperCase() == "EIFFEL TOWER") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
         }
     });
 
