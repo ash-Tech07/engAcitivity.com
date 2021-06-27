@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
         <title>Welcome to our Blog!</title>
         <!-- CSS stylesheet -->
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
@@ -53,7 +53,7 @@
             </div>
         </div>
 
-        <textarea placeholder="Click the words to know more about them!" id="mean" rows="6" cols="65" disabled="disabled"></textarea>
+        <textarea class="t1 t2 t3" placeholder="Click the words to know more about them!" id="mean" rows="6" cols="65" disabled="disabled"></textarea>
 
 
 
@@ -61,10 +61,10 @@
         <div class="meme">
             <h2>Memes</h2>
             <div class="maxwid-m">
-                <div class="slide">
-                    <div class="lbtn"><i class="fas fa-chevron-circle-left fa-3x"></i></div>
+                <div class="slide s1 s2">
+                    <div class="lbtn"><i id="lb" class="fas fa-chevron-circle-left fa-3x"></i></div>
                     <div class="desp"></div>
-                    <div class="rbtn"><i class="fas fa-chevron-circle-right fa-3x"></i></div>
+                    <div class="rbtn"><i id="rb" class="fas fa-chevron-circle-right fa-3x"></i></div>
                 </div>
             </div>
         </div>
@@ -74,8 +74,8 @@
 
         <div class="cword">
             <h2>CrossWord Puzzle</h2>
-            <div class="maxwid-c">
-                <table class="crs">
+            <div class="maxwid-c q1">
+                <table class="crs c1 c2">
                     <tr>
                         <td><input id="c11" class="cell" type="text" maxlength="1" size="1" placeholder="1" /></td>
                         <td><input id="c12" class="cell" type="text" maxlength="1" size="1" placeholder="2" /></td>
@@ -177,12 +177,12 @@
                     </tr>
                 </table>
 
-                <div class="hint">
+                <div class="hint h1 h2 h3 h4">
                     <h3>Across:</h3>
-                    <p class="acr"> 1: Superior in office — 1997 Shah Rukh Khan–starrer, Yes ____ (4).<br>
+                    <p class="acr a1 a2"> 1: Superior in office — 1997 Shah Rukh Khan–starrer, Yes ____ (4).<br>
                         4: The 2002 Coronavirus outbreak (acr.) (4)<br>
                         6: Sick (3)<br>
-                        7: ____-boxing is a violent sport — strike with the foot (4)<br>
+                        7: ____-boxing is a violent sport— strike with the foot (4)<br>
                         8: Like the duckling in Hans Christian Andersen fairytale? (4)<br>
                         9: Trail behind (3)<br>
                         10: Heal — harden wood or rubber (4)<br>
@@ -193,7 +193,7 @@
                     </p>
 
                     <h3>Down: </h3>
-                    <p class="acr"> 2: In all ways — Maruti car model (4)<br>
+                    <p class="acr a1 a2"> 2: In all ways — Maruti car model (4)<br>
                         3: Request for respite from work due to illness (4,5)<br>
                         4: Killing an animal — defeat viciously (9)<br>
                         5: When on fire, stop, drop and ____ — wrap (4)<br>
@@ -205,13 +205,13 @@
 
 
 
-            <button id="ch" class="cbtn" type="button">Check</button>
-            <button id="reset" class="cbtn" type="button">Reset</button>
-            <button id="rev" class="cbtn" type="button">Reveal</button>
+            <button id="ch" class="cbtn b1" type="button">Check</button>
+            <button id="reset" class="cbtn b1" type="button">Reset</button>
+            <button id="rev" class="cbtn b1" type="button">Reveal</button>
         </div>
 
 
-        <script src="index.js" type="text/javascript"></script>
+        <script src="script.js" type="text/javascript"></script>
 
     </body>
 
