@@ -166,6 +166,10 @@ li:hover a {
     .hint.h1.h2.h3 p.acr.a1.a2 {
         font-size: 10px;
     }
+
+    .navbar1 .maxwid-n {
+        margin: 0 20px;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -404,6 +408,26 @@ td {
 
 .m4 {
     background-image: url(r4.jpeg);
+}
+
+.m5 {
+    background-image: url(r5.jpeg);
+}
+
+.m6 {
+    background-image: url(r6.jpeg);
+}
+
+.m7 {
+    background-image: url(r7.jpeg);
+}
+
+.m8 {
+    background-image: url(r8.png);
+}
+
+.m9 {
+    background-image: url(r9.jpeg);
 }
 
 .txt {
