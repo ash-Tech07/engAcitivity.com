@@ -160,6 +160,21 @@ $(document).ready(function() {
     $("#rev-res4").click(function() {
         $("#txt4").val("Eiffel Tower");
     });
+    $("#rev-res5").click(function() {
+        $("#txt5").val("Forensic");
+    });
+    $("#rev-res6").click(function() {
+        $("#txt6").val("Rounded Figure");
+    });
+    $("#rev-res7").click(function() {
+        $("#txt7").val("Breaking Record");
+    });
+    $("#rev-res8").click(function() {
+        $("#txt8").val("CliffHangar");
+    });
+    $("#rev-res9").click(function() {
+        $("#txt9").val("Endless Love");
+    });
 
 
 
@@ -187,6 +202,41 @@ $(document).ready(function() {
     });
     $("#ch-res4").click(function() {
         if (($("#txt4").val()).toUpperCase() == "EIFFEL TOWER") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res5").click(function() {
+        if (($("#txt5").val()).toUpperCase() == "FORENSIC") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res6").click(function() {
+        if (($("#txt6").val()).toUpperCase() == "ROUNDED FIGURE") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res7").click(function() {
+        if (($("#txt7").val()).toUpperCase() == "BREAKING RECORD") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res8").click(function() {
+        if (($("#txt8").val()).toUpperCase() == "CLIFFHANGAR") {
+            alert("Bravo! You are correct.");
+        } else {
+            alert("Oops! Try again");
+        }
+    });
+    $("#ch-res9").click(function() {
+        if (($("#txt9").val()).toUpperCase() == "ENDLESS LOVE") {
             alert("Bravo! You are correct.");
         } else {
             alert("Oops! Try again");
