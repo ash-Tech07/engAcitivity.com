@@ -58,13 +58,19 @@ li:hover a {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    box-shadow: 4px 0 10px 0 rgba(0, 0, 0, 0.2), 6px 0 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: all 0.4s ease;
 }
 
 .navbar1.sticky {
     background-color: #1877f2;
     z-index: 2;
+}
+
+@media screen and (max-width: 1113px) {
+    .hint.h1 {
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -74,6 +80,83 @@ li:hover a {
 
     .maxwid-n {
         margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .maxwid-m .slide.s1 {
+        width: 450px;
+        height: 350px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .maxwid-m .slide.s1 {
+        width: 350px;
+        height: 300px;
+    }
+
+    .hint.h1.h2 p.acr {
+        font-size: 16px;
+    }
+
+    .hint.h1.h2.h3.h4 {
+        margin-left: 25px;
+    }
+
+    .crs .cell {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #mean.t1 {
+        width: 25em;
+        height: 8em;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #mean.t1.t2 {
+        width: 20em;
+        height: 12em;
+    }
+
+    .maxwid-c .q1 {
+        display: inline-block;
+    }
+
+    .hint.h1.h2 p.acr.a1 {
+        font-size: 12px;
+        width: 480px;
+    }
+
+    .cbtn.b1 {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .hint.h1.h2 p.acr.a1 {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #mean.t1.t2.t3 {
+        width: 15em;
+        height: 15em;
+    }
+
+    .crs.c1 .cell {
+        font-size: 12px;
+    }
+
+    .hint.h1.h2.h3 p.acr.a1.a2 {
+        font-size: 10px;
     }
 }
 
@@ -141,6 +224,7 @@ h2, h3 {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
+    padding: 10px;
 }
 
 .maxwid-m {
