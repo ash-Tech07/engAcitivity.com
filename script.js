@@ -128,4 +128,24 @@ $(document).ready(function() {
     });
 
 
+    $(window).resize(function() {
+        if ($(window).width() < 600) {
+            if ($("#lb").hasClass("fa-3x") && $("#rb").hasClass("fa-3x")) {
+                $("#lb").removeClass("fa-3x");
+                $("#rb").removeClass("fa-3x");
+                $("#lb").addClass("fa-2x");
+                $("#rb").addClass("fa-2x");
+            }
+        } else {
+            if ($("#lb").hasClass("fa-2x") && $("#rb").hasClass("fa-2x")) {
+                $("#lb").removeClass("fa-2x");
+                $("#rb").removeClass("fa-2x");
+                $("#lb").addClass("fa-3x");
+                $("#rb").addClass("fa-3x");
+            }
+        }
+    });
+
+
+
 });
