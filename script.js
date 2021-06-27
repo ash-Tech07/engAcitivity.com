@@ -243,6 +243,21 @@ $(document).ready(function() {
         }
     });
 
+    $("#me").click(function() {
+        if ($(".chid").css("display") == "none") {
+            $(".chid").delay(100).show(0);
+        } else {
+            $(".chid").delay(100).hide(0);
+
+        }
+    });
+
+    $(".cd1").click(function() {
+        $(".chid").delay(100).hide(0);
+    });
+
+
+
 
 
 });
