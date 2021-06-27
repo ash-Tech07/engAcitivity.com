@@ -15,6 +15,45 @@ a {
     transition: all 0.4s ease;
 }
 
+.chid {
+    display: none;
+    list-style-type: none;
+    background-color: #f8f8f8;
+    border: 1px solid black;
+    border-radius: 0 0 15px 15px;
+    width: 150px;
+    height: 249px;
+    text-align: left;
+    position: absolute;
+    z-index: 3;
+    right: 10px;
+    top: 45px;
+    padding: 0;
+    transition: all 0.4s ease;
+}
+
+.chid li.cd1.sty {
+    border-radius: 0 0 15px 15px;
+}
+
+.chid li.cd1 {
+    padding: 15px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border-bottom: 1px solid black;
+}
+
+.chid li.cd1 a {
+    padding: 10px;
+}
+
+.chid li.cd1:hover {
+    background-color: #1877f2;
+    color: #fff;
+}
+
 span {
     color: #1877f2;
     transition: all 0.4s ease;
@@ -24,14 +63,14 @@ span {
     color: #fff;
 }
 
-ul {
+.u1 {
     list-style-type: none;
     display: inline-block;
     margin: 10px 0;
     transition: all 0.4s ease;
 }
 
-li {
+.l1 {
     display: inline-block;
     margin-right: 20px;
     border-radius: 30px;
@@ -39,19 +78,19 @@ li {
     transition: all 0.4s ease;
 }
 
-li:hover {
+.l1:hover {
     background-color: #1877f2;
 }
 
-li:hover a {
+.l1:hover a {
     color: #fff;
 }
 
-.navbar1.sticky .maxwid-n ul li:hover {
+.navbar1.sticky .maxwid-n .u1 .l1:hover {
     background-color: #fff;
 }
 
-.navbar1.sticky .maxwid-n ul li:hover a {
+.navbar1.sticky .maxwid-n .u1 .l1:hover a {
     color: #1877f2;
 }
 
@@ -91,7 +130,7 @@ li:hover a {
 }
 
 @media screen and (max-width: 900px) {
-    li {
+    .l1 {
         margin-right: 0;
     }
 
@@ -195,7 +234,7 @@ li:hover a {
 }
 
 @media screen and (max-width: 394px) {
-    .navbar1 .maxwid-n ul {
+    .navbar1 .maxwid-n .u1 {
         padding-left: 20px;
     }
 }
@@ -317,15 +356,15 @@ h3 {
         font-size: 18px;
     }
 
-    .navbar1 .maxwid-n ul.u1 {
+    .navbar1 .maxwid-n .u1.u1 {
         padding: 0;
     }
 
-    .navbar1 .maxwid-n ul.u1 li {
+    .navbar1 .maxwid-n .u1.u1 .l1 {
         padding: 10px;
     }
 
-    .navbar1 .maxwid-n ul.u1 li a {
+    .navbar1 .maxwid-n .u1.u1 .l1a {
         font-size: 15px;
     }
 }
