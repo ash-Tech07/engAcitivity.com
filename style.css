@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     text-align: center;
@@ -15,6 +19,7 @@ ul {
     list-style-type: none;
     display: inline-block;
     margin: 10px 0;
+    transition: all 0.4s ease;
 }
 
 li {
@@ -52,6 +57,7 @@ li:hover a {
     justify-content: space-between;
     align-items: center;
     margin: 0 50px;
+    transition: all 0.4s ease;
 }
 
 .navbar1 {
@@ -65,6 +71,7 @@ li:hover a {
 .navbar1.sticky {
     background-color: #1877f2;
     z-index: 2;
+    transition: all 0.4s ease;
 }
 
 @media screen and (max-width: 1113px) {
@@ -244,12 +251,14 @@ h2, h3 {
     font-family: 'Roboto', sans-serif;
     margin-bottom: 40px;
     padding: 10px;
+    transition: all 0.4s ease;
 }
 
 .maxwid-m {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.4s ease;
 }
 
 .slide {
@@ -272,6 +281,7 @@ h2, h3 {
 .lbtn, .rbtn {
     cursor: pointer;
     color: #1877f2;
+    transition: all 0.4s ease;
 }
 
 .lbtn {
@@ -291,12 +301,14 @@ h2, h3 {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    transition: all 0.4s ease;
 }
 
 table {
     width: 360px;
     height: 360px;
     border: 1px solid black;
+    transition: all 0.4s ease;
 }
 
 td {
@@ -305,6 +317,7 @@ td {
     width: 35px;
     height: 35px;
     padding: 0;
+    transition: all 0.4s ease;
 }
 
 .cell {
@@ -312,6 +325,7 @@ td {
     text-align: center;
     border: 0;
     padding: 8px 2px;
+    transition: all 0.4s ease;
 }
 
 .cell.dis {
@@ -322,11 +336,13 @@ td {
     width: 550px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    transition: all 0.4s ease;
 }
 
 .hint {
     text-align: left;
     margin: 0 0 0 100px;
+    transition: all 0.4s ease;
 }
 
 .cbtn {
@@ -345,4 +361,61 @@ td {
 .cbtn:hover {
     color: #fff;
     background-color: #1877f2;
+}
+
+.rebus {
+    margin: 120px 0;
+}
+
+.maxwid-r {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.im {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    border: 3px solid #000;
+    border-radius: 100%;
+    margin: 0 30px 30px;
+    transition: all 0.4s ease;
+}
+
+.im:hover {
+    border-color: #1877f2;
+}
+
+.m1 {
+    background-image: url(r1.jpeg);
+}
+
+.m2 {
+    background-image: url(r2.jpeg);
+}
+
+.m3 {
+    background-image: url(r3.jpeg);
+}
+
+.m4 {
+    background-image: url(r4.jpeg);
+}
+
+.txt {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    border: 2px solid #000;
+    padding: 8px 14px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.re1, .re2, .re3, .re4 {
+    margin: 25px 0;
 }
